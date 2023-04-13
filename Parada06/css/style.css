@@ -1,0 +1,123 @@
+  @import url('https://fonts.googleapis.com/css2?family=Itim&family=Rubik:ital,wght@0,300;0,400;1,400&display=swap');
+
+
+body{
+    background-image: url(../img/bg-naruto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Itim', cursive;
+
+}
+
+header {
+    width: 33%;
+    margin-left: 40%;
+    height: 38px;
+    background-color: #FE9A2E;
+    margin-top: 3rem;
+    
+}
+
+div{
+  width: 48%;
+  background-color: #FE9A2E;
+  margin-left: 32%; 
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+img#naruto {
+    display: block;
+    margin: auto;
+    padding: auto;
+    height: 290px;
+}
+
+article {
+    text-align: justify;
+    width: 70%;
+    background-color: rgb(73, 73, 73);
+    padding: 10px;
+    margin-left: 14%;
+    color: white;
+}
+
+p{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-top: 1.8rem;
+}
+
+h1{
+    padding-left: 10px;
+    background: linear-gradient(90deg, #ff0000, #0099ff);
+    color: #ffffff;
+    text-shadow: 0px 0px 8px #0000ff;
+}
+
+#menu{
+    background-color: #FE642E;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    width: 55%;
+    margin-top: 5rem;
+    margin-left: 22.8%;
+}
+
+#menu li{
+    float: left;
+}
+
+#menu li a{
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #0099ff;
+    color: #1C1C1C;
+}
+#menu a {
+    margin-left: 8px;
+}
+
+#menu li a:hover{
+    transition: 0.5s;
+    color: white;
+    background-color: #DF3A01;
+    box-shadow: 3px 3px 3px #1C1C1C;    
+}
+
+#btn-leia {
+    border: 1px solid black;
+    width: 90px;
+    margin-top: 3rem;
+    height: 1.6rem;
+    margin-bottom: 1rem;
+    padding: 10px 10px;
+    margin-left: 10rem;
+    box-shadow: 3px 3px 3px #0f0322 ;
+}
+
+#btn-leia a {
+    text-decoration: none;
+    text-align: center;
+    padding: 7px;
+    padding-left: 0.8rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #0f0322;
+}
+
+
+footer {
+    width: 200px;
+    margin-top: 0.6rem;
+    margin-left: 48%;
+    background-color: #CCC;
+}
+
+

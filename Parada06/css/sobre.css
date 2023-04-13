@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Rubik:ital,wght@0,300;0,400;1,400&display=swap');
+
+
+body{
+    background-image: url(../img/bg-naruto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Itim', cursive;
+
+}
+
+header {
+    width: 32%;
+    margin-left: 40%;
+    height: 38px;
+    background-color: #FE9A2E;
+    position: relative;
+    top: 1rem;
+    
+}
+
+div{
+  width: 48%;
+  background-color: #FE9A2E;
+  margin-left: 32%; 
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding: auto;
+    margin-left: -0.4rem;
+    height: 290px;
+    width: 100%;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-bottom: 14px;
+    padding-top: 1.6rem;
+    background-color: rgb(8, 8, 8);
+    box-shadow: 5px 5px 5px rgba(238, 5, 5, 0.329);
+
+}
+
+article {
+    text-align: center;
+    width: 600px;
+    background-color: rgb(34, 34, 34);
+    margin-left: 2.4%;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-top: 1rem;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+p{
+    text-align: justify;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-top: 4rem;
+    margin-bottom: 6px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 4px;
+
+}
+
+h1{
+    padding-left: 10px;
+    background: linear-gradient(90deg, #ff0000, #0099ff);
+    color: #ffffff;
+    text-shadow: 0px 0px 8px #0000ff;
+}
+
+h2 {
+    color: #fa5d02;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #0c0c0c;
+}
+
+#menu{
+    background-color: #FE642E;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    width: 55%;
+    margin-top: 5rem;
+    margin-left: 22.8%;
+}
+
+#menu li{
+    float: left;
+}
+
+#menu li a{
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #0099ff;
+    color: #1C1C1C;
+}
+#menu a {
+    margin-left: 8px;
+}
+
+#menu li a:hover{
+    transition: 0.5s;
+    color: white;
+    background-color: #DF3A01;
+    box-shadow: 3px 3px 3px #1C1C1C;    
+}
+
+div#btn-saiba {
+    width: 100px;
+    margin-left: 80%;
+    position: relative;
+    top: 1rem;
+    background-color: #FF4000;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3px;
+    padding-right: 3px;
+    box-shadow: 2px 2px 2px #070B19;
+
+
+}
+
+a#saiba {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px #0B0719;
+
+}
+
+div#btn-saiba:hover {
+    box-shadow: 6px 6px 6px #0B0719;
+
+}
+
+div#btn-saiba a:hover {
+    color: #070B19;
+    text-shadow: 2px 2px 2px #ececee;
+
+}
+
+footer {
+    width: 200px;
+    margin-top: 0.6rem;
+    margin-left: 48%;
+    background-color: #CCC;
+}
+
+
