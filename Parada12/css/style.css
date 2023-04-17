@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/bg2.jpg);
+    background-size: cover;
+}
+
+#header_box{
+    width: 100%;
+    background-color: #070a0e;
+    text-align: center;
+}
+
+#header_box h1 {
+    padding-top: 3rem;
+    font-size: 45px;
+    color: rgb(66, 218, 238);
+    text-shadow: 2px 2px 2px white;
+
+}
+
+img#logo {
+    width: 200px;
+    height: 150px;
+    margin-right: 60rem;
+    margin-top: -5rem;
+}
+#nav_box {
+    float: left;
+    width: 30%;
+    padding: 20px;
+    justify-content: end;
+}
+#nav_box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+#nav_box li a {
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 5rem;
+    padding-left: 5rem;
+    font-weight: bold;
+    margin-bottom: 7px;
+    background-color: #363535;
+    color: rgb(66, 218, 238);
+    text-shadow: 1px 1px 1px white;
+    
+}
+
+#nav_box li a{
+    padding-right: 5rem;
+}
+
+#nav_box li a:hover {
+    background-color: rgb(66, 218, 238);
+    color: #363535;
+    box-shadow: 3px 3px 3px rgb(27, 27, 27);
+}
+
+
+table {
+    width: 100%;
+    margin: auto;
+    background-color: aquamarine;
+}
+
+.article img {
+    border-radius: 500px;
+    margin-left: 3.6rem;
+    justify-content: center;
+}
+
+.article p {
+    width: 100%;
+    color: white;
+    text-align: justify;
+    font-weight: 600;
+    font-size: 18px;
+    text-shadow: 2px 2px 2px #000000;
+
+}
+
+.article {
+    width: 25%;
+    position: absolute;
+    left: 30rem;
+    margin-top: 2rem;
+
+}
+
+tr#counter {
+    width: 30%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    background-color: #0b615e91;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+}
+
+tr#counter h2 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    
+}
+
+tr#league {
+    width: 30%;
+    margin-top: 36.8rem;
+    background-color: #0b615e91;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+
+}
+
+tr#league h2 {
+    text-align: center;
+    color: #c39a2c;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+tr#world {
+    width: 30%;
+    margin-top: 71rem;
+    background-color: #0b615e91;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 2px 2px 2px rgb(12, 12, 12);
+
+}
+
+tr#world h2 {
+    text-align: center;
+    color: #f2920b;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+tr#footer {
+    background-color: #707070;
+    text-align: center;
+    margin-top: 106rem;
+    margin-bottom: 5rem;
+    margin-left: 3rem;
+}
+
+tr#footer h3{
+    text-align: center;
+    width: 100%;
+    background-color: #707070;
+    color: rgb(0, 0, 0);
+    margin-left: 1.3rem;
+}
