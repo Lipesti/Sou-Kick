@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+            }
+
+            h1 {
+                margin-left: 30%;
+                margin-top: 20%;
+                margin-right: 29rem;
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+                background-color: rgba(177, 160, 160, 0.509);
+            }
+
+            nav{
+                display: flex;
+                background-color: rgba(177, 160, 160, 0.509);
+                font-family: 'Helvetica', sans-serif;
+                justify-content: center;
+
+
+            }
+
+            ul{ 
+                display: flex;
+                list-style-type: none;
+
+            }
+
+            li {
+                padding: 0 0 0px 50px;
+                font-size: 20px;
+                font-weight:bold;
+            }
+
+            ul li a {
+                text-decoration: none;
+                color: black;
+            }
+
+            ul li a:hover {
+                text-transform: uppercase;
+                background: white;
+                padding: 10px 10px;
+                border-radius: 2rem;
+                box-shadow: 2px 2px 2px black;
+
+            }
+        </style>
+        <title>Desafio Java Script</title>
+    </head>
+    <body> 
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+            <h1>Troca de cores com Java Script</h1>
+        
+         <script> 
+            var cor = prompt("Digite uma cor em Inglês") 
+            document.body.style.background = cor;
+        </script> 
+    </body>
+</html>
