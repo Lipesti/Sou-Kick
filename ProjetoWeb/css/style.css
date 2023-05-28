@@ -1,0 +1,793 @@
+/*
+* 
+* Layout
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body, #home {
+    height: 100%;
+    width: 100%;
+}
+
+#logo {
+    width: 180px;
+}
+
+/* Barra de navegação */
+.navbar-nav{
+    background: #17353B;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+} 
+
+#nav-principal li {
+    padding: 0 2rem;
+}
+nav.navbar-transparente {
+    background: #FAECD9;
+    margin-top: -4rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#FFFFFF;
+    background: #17353B;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #17353B;
+    background: #FFFFFF;
+    border-radius: 10px ;
+    box-shadow: 4px 4px 4px 4px black;
+    
+}
+
+.navbar-light .navbar-toggler {
+    color: #17353B;
+    border-color: #17353B;
+}
+
+body, #home {
+    background: #587E7B;
+}
+
+#home img {
+    margin-top: 1rem;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+input{
+    position: fixed;
+    top: 10rem;
+    margin-right: 6rem;
+    width: 510px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 44px;
+    /* identical to box height */
+    text-align: center;
+    color: #587E7B;
+}
+
+#conteudo {
+    margin-left: 45%;
+}
+
+div#apresentacao1{
+    border: 1px solid black;
+    background: white;
+    width: 300px;
+    position: fixed;
+    bottom: 3.8rem;
+    padding-top: 10px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px black;
+}
+
+div#apresentacao2{
+    border: 1px solid black;
+    background: white;
+    width: 300px;
+    position: fixed;
+    bottom: 3.8rem;
+    right:3.7rem;
+    padding-top: 10px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px black;
+}
+
+#apresentacao1 p {
+    text-align: center;
+    padding-top: 25px;
+    font-weight: bold;
+}
+#apresentacao2 p {
+    text-align: center;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+h4 {
+    padding-left: 10px;
+}
+
+
+img#foto1{
+    position: fixed;
+    bottom: 12rem;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+
+} 
+img#foto2{
+    position: fixed;
+    bottom: 12rem;
+    right: 3.6rem;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+
+} 
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 130px;
+    background-color: #faecd9e3;
+    z-index: 1;
+}
+
+
+@media screen and (min-width:300px) and (max-width: 575.98px) {
+    nav.navbar-transparente{
+        background: #faecd994;
+    }
+    .navbar-nav{
+        border-radius: 10px;
+        background: none;
+        box-shadow: none;
+    } 
+    
+    #nav-principal li {
+        padding: 10px 2rem;
+
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 16px;
+        border: 1px solid white;
+        border-radius: 10px;
+
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #17353B;
+        background: #FFFFFF;
+        border-radius: 10px ;
+        box-shadow: 4px 4px 4px black;
+        
+    }
+
+    div#happy img{
+        display: none;
+    }
+    input{
+        margin-top: 5px;
+        position: fixed;
+        margin-left: 80px;
+        top: 10rem;
+        font-size: 14px;
+        width: 250px;
+        height: 30px;
+    }
+
+    #home img {
+        display: none;
+       
+    }
+
+    section{
+        margin-bottom: -100px;
+    }
+    
+    img#foto1{
+        position: fixed;
+        bottom: 45rem;
+        left: 65px;
+        z-index: 0;
+    }
+    img#foto2{
+        position: fixed;
+        bottom: 22rem;
+        left: 65px;
+    }
+
+    div#apresentacao1{
+        position: fixed;
+        bottom: 36.7rem;
+        right: 2.7rem;
+        z-index: 1;
+    }
+    div#apresentacao2{
+        position: fixed;
+        bottom: 13.4rem;
+        right: 2.7rem;
+        z-index: 1;
+    }
+    #apresentacao1 p {
+        text-align: center;
+        padding-top: 25px;
+        font-weight: bold;
+    }
+    #apresentacao2 p {
+        text-align: center;
+        padding-top: 25px;
+        font-weight: bold;
+    }
+
+    footer{
+        height: auto;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    div#info, div#contato {
+        display: flex;
+        flex-direction: column;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .fa-facebook-square{
+        font-size: 50px;
+        background-color: white;
+    }
+
+    span#insta {
+        font-size: 40px;
+        margin-left: 12px;
+        background-image: radial-gradient(circle at bottom left, #F9DC64, #FF553E, #B5008E);
+        border-radius: 25%;
+        padding: 0px 8px;
+        text-align: center;
+        font-weight: 100;
+    }
+
+    span#insta::before{
+        background-image: radial-gradient(circle at top left, #3023AE, #3023AE1f, transparent );
+    }
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {  
+    nav.navbar-transparente{
+        background: #faecd994;
+    }
+    .navbar-nav{
+        border-radius: 10px;
+        background: none;
+        box-shadow: none;
+    } 
+    
+    #nav-principal li {
+        padding: 10px 1rem;
+
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 16px;
+        border: 1px solid white;
+        border-radius: 10px;
+
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #17353B;
+        background: #FFFFFF;
+        border-radius: 10px ;
+        box-shadow: 4px 4px 4px black;
+        
+    }
+
+    div#happy img{
+        display: none;
+    }
+
+    input{
+        margin-top: 0px;
+        position: fixed;
+        right: 1rem;
+        top: 10rem;
+        font-size: 16px;
+        width: 330px;
+        height: 40px;
+    }
+    
+
+    #home img {
+        display: none;
+    }
+
+    section{
+        margin-bottom: -100px;
+    }
+    
+    img#foto1{
+        position: fixed;
+        bottom: 45rem;
+        left: 65px;
+        z-index: 0;
+    }
+    img#foto2{
+        position: fixed;
+        bottom: 22rem;
+        left: 65px;
+    }
+
+    div#apresentacao1{
+        position: fixed;
+        bottom: 36.7rem;
+        right: 2.7rem;
+        z-index: 1;
+    }
+    div#apresentacao2{
+        position: fixed;
+        bottom: 13.4rem;
+        right: 2.7rem;
+        z-index: 1;
+    }
+    #apresentacao1 p {
+        text-align: center;
+        padding-top: 25px;
+        font-weight: bold;
+    }
+    #apresentacao2 p {
+        text-align: center;
+        padding-top: 25px;
+        font-weight: bold;
+    }
+
+    footer{
+        height: auto;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    div#info, div#contato {
+        display: flex;
+        flex-direction: column;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .fa-facebook-square{
+        font-size: 50px;
+        background-color: white;
+    }
+
+    span#insta {
+        font-size: 40px;
+        margin-left: 12px;
+        background-image: radial-gradient(circle at bottom left, #F9DC64, #FF553E, #B5008E);
+        border-radius: 25%;
+        padding: 0px 8px;
+        text-align: center;
+        font-weight: 100;
+    }
+
+    span#insta::before{
+        background-image: radial-gradient(circle at top left, #3023AE, #3023AE1f, transparent );
+    }
+    
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    nav.navbar-transparente{
+        background: #faecd994;
+    }
+    .navbar-nav{
+        border-radius: 10px;
+        background: #17353B;
+        box-shadow: none;
+    } 
+    
+    #nav-principal li {
+        padding: 10px 1rem;
+
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 16px;
+        border-radius: 10px;
+
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #17353B;
+        background: #FFFFFF;
+        border-radius: 10px ;
+        box-shadow: 4px 4px 4px black;
+        
+    }
+
+    div#happy{
+        width: 200px;
+        position: fixed;
+        bottom: 2rem;
+        left: 27rem;
+    }
+
+    div#happy img{
+        position: static;
+        width: 350px;
+
+    }
+
+    input{
+        margin-top: 0px;
+        position: fixed;
+        right: -2rem;
+        top: 10rem;
+        font-size: 18px;
+        width: 300px;
+        height: 60px;
+    }
+    
+
+    #home img {
+        width: 355px;
+        height: 450px;
+        margin-top: 3.5rem;
+        position: fixed;
+        left: 1.6rem;
+        top: 6rem;
+        border-radius: 20px;
+    }
+
+    section{
+        margin-bottom: -100px;
+    }
+    
+    img#foto1{
+        position: fixed;
+        bottom: 40rem;
+        left: 27.8rem;
+    }
+    img#foto2{
+        position: fixed;
+        bottom: 17.6rem;
+        left: 50px;
+    }
+
+    div#apresentacao1{
+        position: fixed;
+        bottom: 31.4rem;
+        right: 3.6rem;
+    }
+    div#apresentacao2{
+        position: fixed;
+        bottom: 9rem;
+        right: 28.2rem;
+        z-index: 1;
+    }
+    #apresentacao1 p {
+        text-align: center;
+        padding-top: 25px;
+        font-weight: bold;
+    }
+    #apresentacao2 p {
+        text-align: center;
+        padding-top: 25px;
+        font-weight: bold;
+    }
+
+    footer{
+        height: auto;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    div#info, div#contato {
+        display: flex;
+        flex-direction: column;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .fa-facebook-square{
+        font-size: 50px;
+        background-color: white;
+    }
+
+    span#insta {
+        font-size: 40px;
+        margin-left: 12px;
+        background-image: radial-gradient(circle at bottom left, #F9DC64, #FF553E, #B5008E);
+        border-radius: 25%;
+        padding: 0px 8px;
+        text-align: center;
+        font-weight: 100;
+    }
+
+    span#insta::before{
+        background-image: radial-gradient(circle at top left, #3023AE, #3023AE1f, transparent );
+    }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    nav.navbar-transparente{
+        background: #faecd994;
+    }
+    .navbar-nav{
+        border-radius: 10px;
+        background: #17353B;
+        box-shadow: 4px 4px 4px black;
+    } 
+    
+    #nav-principal li {
+        padding: 10px 2rem;
+
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 20px;
+        border-radius: 10px;
+
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #17353B;
+        background: #FFFFFF;
+        border-radius: 10px ;
+        box-shadow: 4px 4px 4px black;
+        
+    }
+
+    div#happy{
+        width: 200px;
+        position: absolute;
+        bottom: 2rem;
+        left: 40rem;
+    }
+    
+    div#happy img{
+        position: fixed;
+        width: 350px;
+
+    }
+
+    input{
+        margin-top: 0px;
+        position: fixed;
+        right: 0.110rem;
+        top: 10rem;
+        font-size: 26px;
+        width: 450px;
+        height: 50px;
+    }
+    
+
+    #home img {
+        width: 400px;
+        height: 300px;
+        margin-top: 4rem;
+        position: fixed;
+        left: 1.6rem;
+        top: 6rem;
+        border-radius: 20px;
+    }
+
+    section{
+        margin-bottom: -100px;
+    }
+
+    img#foto1{
+        position: fixed;
+        bottom: 40rem;
+        left: 27.8rem;
+    }
+    img#foto2{
+        position: fixed;
+        bottom: 17.6rem;
+        left: 50px;
+    }
+
+    div#apresentacao1{
+        position: fixed;
+        bottom: 31.4rem;
+        right: 3.6rem;
+    }
+    div#apresentacao2{
+        position: fixed;
+        bottom: 9rem;
+        right: 28.2rem;
+        z-index: 1;
+    }
+    #apresentacao1 p {
+        text-align: center;
+        padding-top: 25px;
+        font-weight: bold;
+    }
+    #apresentacao2 p {
+        text-align: center;
+        padding-top: 25px;
+        font-weight: bold;
+    }
+    footer{
+        height: auto;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    div#info, div#contato {
+        display: flex;
+        flex-direction: column;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .fa-facebook-square{
+        font-size: 50px;
+        background-color: white;
+    }
+
+    span#insta {
+        font-size: 40px;
+        margin-left: 12px;
+        background-image: radial-gradient(circle at bottom left, #F9DC64, #FF553E, #B5008E);
+        border-radius: 25%;
+        padding: 0px 8px;
+        text-align: center;
+        font-weight: 100;
+    }
+
+    span#insta::before{
+        background-image: radial-gradient(circle at top left, #3023AE, #3023AE1f, transparent );
+    }
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #logo{
+        padding-top: 1rem;
+    }
+    nav.navbar-transparente{
+        background: #faecd9e6;
+    }
+    .navbar-nav{
+        border-radius: 10px;
+        background: #17353B;
+        margin-top: 2rem;
+        box-shadow: 2px 2px 2px black;
+    } 
+    
+    #nav-principal li {
+        padding: 10px 2.5rem;
+
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 20px;
+        border-radius: 10px;
+
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #17353B;
+        background: #FFFFFF;
+        border-radius: 10px ;
+        box-shadow: 4px 4px 4px black;
+        
+    }
+
+    div#happy img{
+        display: none;
+    }
+
+    input{
+        position: fixed;
+        top: 10rem;
+        right: 4rem;
+        width: 510px;
+        height: 50px;
+        background: #FFFFFF;
+        border-radius: 30px;
+        margin-top: 1rem;
+        font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 44px;
+        /* identical to box height */
+        text-align: center;
+        color: #587E7B;
+    }
+    
+    section{
+        margin-bottom: 1rem;
+    }
+
+    #home img {
+        width: 500px;
+        height: 400px;
+        margin-top: 4.5rem;
+        position: fixed;
+        left: 1.6rem;
+        top: 6rem;
+        border-radius: 20px;
+    }
+
+    div#info, div#contato {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div#info span, #contato span {
+        margin-top: 10px;
+        margin-left: 10px;
+        font-weight: bold;
+    }
+
+    div#contato {
+        position: absolute;
+        left: 26rem;
+        bottom: 0.20rem;
+        text-align: center;
+    }
+
+     div#redes {
+        position: absolute;
+        bottom: 0.350rem;
+        left: 62rem;
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+        text-align: center;
+    } 
+
+
+    div#iconsR {
+        padding-top: 5px;
+        padding-bottom: 10px;
+        font-size: 40px;
+        display: block;
+        flex-direction: row;
+    }
+
+    .fa-facebook-square{
+        font-size: 50px;
+        background-color: white;
+    }
+
+    span#insta {
+        margin-left: 12px;
+        background-image: radial-gradient(circle at bottom left, #F9DC64, #FF553E, #B5008E);
+        border-radius: 25%;
+        padding: 0px 8px;
+        text-align: center;
+        font-weight: 100;
+    }
+
+    span#insta::before{
+        background-image: radial-gradient(circle at top left, #3023AE, #3023AE1f, transparent );
+    }
+ }
